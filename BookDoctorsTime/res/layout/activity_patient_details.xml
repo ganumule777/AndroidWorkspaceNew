@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ 	android:id="@+id/container"  	
+ 	android:layout_alignParentBottom="true"
+  	android:background="#DCDCDC"
+  	android:orientation="vertical"
+    >
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:orientation="horizontal"
+         android:layout_marginTop="5dp"
+         >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:src="@drawable/doc" />
+        
+	        <LinearLayout
+		         android:layout_width="wrap_content"
+		         android:layout_height="match_parent"
+		         android:layout_gravity="center"
+		         android:orientation="vertical"
+		         android:layout_weight="1"
+	         >
+         	
+	            	 <TextView
+	            	     android:id="@+id/tvDocName"
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="wrap_content"
+	            	     android:layout_marginLeft="5dp"
+	            	     android:layout_marginRight="5dp"
+	            	     android:layout_weight="1.5"
+	            	     android:ellipsize="end"
+	            	     android:singleLine="true"           	              	    
+	            	     android:textSize="20dp"
+	            	     android:textStyle="bold" />
+	            	 
+	            	 
+	            	  <TextView
+	            	     android:id="@+id/tvDocSpc1"
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="wrap_content"
+	            	     android:layout_marginLeft="5dp"
+	            	     android:layout_marginRight="5dp"
+	            	     android:layout_weight="1.5"
+	            	     android:ellipsize="end"
+	            	     android:singleLine="true"
+	            	    
+	            	     android:textSize="15dp"
+	            	      />
+	            	 
+	            	
+    
+    		</LinearLayout>
+
+     </LinearLayout>
+
+          	    <LinearLayout
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center"
+		         android:orientation="horizontal"		  
+	         	>
+
+	          	   <TextView
+	          	       android:id="@+id/tvAppDay"
+	          	       android:layout_width="160dp"
+	          	       android:layout_height="wrap_content"
+	          	       android:layout_marginLeft="5dp"
+	          	       android:layout_marginRight="5dp"
+	          	       android:layout_marginTop="5dp"
+	          	       android:drawableLeft="@drawable/images1234"
+	          	       android:gravity="left|center_vertical"
+	          	       android:textSize="15dp" />
+	          	   
+	          	   <TextView
+	          	       android:id="@+id/tvAppTime"
+	          	       android:layout_width="match_parent"
+	          	       android:layout_height="wrap_content"
+	          	       android:layout_marginLeft="5dp"
+	          	       android:layout_weight="1"
+	          	       android:layout_marginRight="5dp"
+	          	       android:layout_marginTop="5dp"
+	          	       android:ellipsize="end"
+	          	       android:gravity="left|center_vertical"
+	          	       android:singleLine="true"
+	          	       android:textSize="15dp" />
+	          	   </LinearLayout>
+	          	   
+          	    
+          	     <TextView
+	          	       android:id="@+id/tvtitlePatDetails"
+	          	       android:layout_width="match_parent"
+	          	       android:layout_height="wrap_content"
+	          	       android:layout_marginLeft="5dp"
+	          	       android:layout_marginRight="5dp"
+	          	       android:layout_marginTop="5dp"
+	          	       android:ellipsize="end"
+	          	       android:gravity="center"
+	          	       android:singleLine="true"
+	          	       android:text="Patient Details"
+	          	       android:textStyle="bold"
+	          	       android:textSize="15dp" />
+          
+          	     <ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical">
+	          	      <LinearLayout
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				         android:orientation="vertical"	
+				         android:background="#ffffff"  			  
+				         android:layout_marginLeft="5dp"
+				         android:layout_marginRight="5dp"
+				         android:layout_marginBottom="5dp"
+				         
+		         		>
+	  			<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                 >
+	          	         <EditText
+	          	              android:id="@+id/etPatientName"
+	          	              android:layout_width="300dp"
+	          	              android:layout_height="wrap_content"	
+	          	              android:layout_weight="1"          	       
+	          	              android:hint="@string/hint_patient_name"
+	          	               >							  	          	           
+	          	          </EditText>
+
+				          	  <TextView
+			                    android:id="@+id/textView1"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:text="*"
+			                    android:layout_weight="1"
+			                    android:textColor="#FF0000"
+			                    android:textSize="20dp" />
+         	          </LinearLayout>
+	          	          <EditText
+	          	              android:id="@+id/etPatientEmailId"
+	          	              android:layout_width="match_parent"
+	          	              android:layout_height="wrap_content"
+	          	              android:hint="@string/hint_patient_email"
+	          	               />
+	
+	          	          
+	          	          <LinearLayout
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="horizontal"
+			                 >
+				          	  
+	          	               
+	          	          <EditText
+	          	              android:id="@+id/etPatientmblNo"
+	          	              android:layout_width="300dp"
+	          	              android:layout_weight="1"
+	          	              android:layout_height="wrap_content"	          	       
+	          	              android:hint="@string/hint_Patient_mobile"
+	          	              android:inputType="phone"
+	          	               />
+
+				          	  <TextView
+			                    android:id="@+id/textView1"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:text="*"
+			                    android:layout_weight="1"
+			                    android:textColor="#FF0000"
+			                    android:textSize="20dp" />
+	          	          </LinearLayout>
+	          	         
+
+	          	          <EditText
+	          	              android:id="@+id/etPatAdd"
+	          	              android:layout_width="match_parent"
+	          	              android:layout_height="wrap_content"
+	          	              android:hint="@string/hint_Patient_addr" 
+	          	             />   
+	          	             	          	                 	            	                	         
+	          	   </LinearLayout>
+	          	
+          </ScrollView>
+	     
+          	      <Button
+			        android:id="@+id/btBookAppmnt"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:background="#6B8E23"
+			 		android:layout_gravity="bottom"	
+			 		android:layout_marginTop="50dp" 
+			 		android:onClick="onBookAppmntClick"
+			        android:text="Continue" />
+          	    
+          	  
+</LinearLayout>    	  
+

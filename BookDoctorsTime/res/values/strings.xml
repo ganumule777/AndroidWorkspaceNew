@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Book Doctors Time</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_find_doctor"><i>Book Your Doctors Appointment</i></string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_tab_main">Doctor Search</string>
+    <string name="title_activity_doctors_name_search">Doctor Search</string>
+    <string name="text_search_doctors_name">Doctor Name</string>
+    <string name="text_search_button">Search</string>
+    <string name="text_view">Doctor Search</string>
+    <string name="title_activity_specialization_search">SpecializationSearchActivity</string>
+    <string name="title_activity_doctors_profile">Profile</string>
+    <string name="text_book_appointment">Book Appointment</string>
+    <string name="text_request_appointment">Request Appointment</string>
+    <string name="title_activity_appointment">AppointmentActivity</string>
+    <string name="button_next">Next Day</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_book_appointment">Book Appointment</string>
+    <string name="title_activity_patient_details">PatientDetailsActivity</string>
+    <string name="hint_patient_name">Name</string>
+    <string name="hint_patient_last_name">Last Name</string>
+    <string name="hint_patient_reason">Appointment Reason</string>
+    <string name="hint_patient_email">Email Id</string>
+    <string name="hint_Patient_mobile">Mobile No.</string>
+    <string name="hint_Patient_age">Age</string>
+    <string name="hint_Patient_city">City</string>
+    <string name="hint_Patient_addr">Address</string>
+    <string name="suggestion_text">You will receive an SMS/Mail with appointment details to this enterd number/email id</string>
+    <string name="title_activity_doc_appmnt_details">Appointment list</string>
+    <string name="title_activity_doctors_details_profile">Doctors Detailed Profile</string>
+
+</resources>

@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+ 	android:id="@+id/container"  	
+ 	android:layout_alignParentBottom="true"
+  	android:background="#DCDCDC"
+  	android:orientation="vertical"
+    >
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:orientation="horizontal"
+         android:layout_marginTop="5dp"
+         >
+            
+     </LinearLayout>
+     
+          	  <LinearLayout
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         android:gravity="center"
+	         android:orientation="horizontal"
+	         android:layout_marginTop="5dp"
+	         
+	         >
+
+	         <TextView
+	             android:id="@+id/tvDateValueDocAppmnt"
+	             android:layout_width="wrap_content"
+	             android:layout_height="50dp"
+	             android:layout_marginLeft="5dp"
+	             android:layout_marginRight="2dp"
+	             android:layout_weight="0.00"
+	             android:background="#ffffff"
+	             android:ellipsize="end"
+	             android:gravity="left|center_vertical"
+	             android:singleLine="true"
+	             android:text="Selected Date"
+	             android:textSize="15dp" />
+
+	          	  <ImageButton
+	          	      android:id="@+id/imageButton1DocAppmnt"
+	          	      android:layout_width="wrap_content"
+	          	      android:layout_height="50dp"
+	          	      android:layout_gravity="center"
+	          	      android:background="@android:color/transparent"
+	          	      android:onClick="openDateEditor"
+	          	      android:scaleType="fitXY"
+	          	      android:src="@drawable/cal" />
+
+	          	 
+          	  </LinearLayout>
+          	  
+          	  
+          	  	  <LinearLayout
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:layout_gravity="center"
+			         android:gravity="center"
+			         android:orientation="horizontal"
+			         android:layout_marginTop="5dp"
+			         android:layout_marginLeft="2dp"
+			         android:background="#ffffff"
+			         >
+	          	  <TextView
+				        android:id="@+id/tvDate"
+				        android:layout_width="70dp"
+				        android:layout_height="wrap_content"			       
+				        android:textStyle="bold"
+				        android:textColor="@android:color/black"
+				        android:text="Date" />
+				
+				    <TextView
+				        android:id="@+id/tvSlot"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:textColor="@android:color/black"
+				        android:layout_weight="1"
+				       	android:textStyle="bold"				       
+				        android:text="Slot" />
+				
+				    <TextView
+				        android:id="@+id/tvPName"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:textColor="@android:color/black"
+				        android:layout_weight="1"
+				        android:textStyle="bold"				        
+				        android:text="P. Name" />
+
+				     <TextView
+				        android:id="@+id/tvPMblNo"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:textColor="@android:color/black"
+				        android:layout_weight="1"
+				        android:textStyle="bold"
+				        android:text="P. Mobile No." />
+				    
+	          	  </LinearLayout>
+          	  
+	          	  <ListView
+			      android:id="@+id/list"	
+			      android:layout_weight="1"     
+			      android:layout_width="match_parent"
+			      android:layout_height="wrap_content"
+				  android:layout_marginTop="7dp"
+				  android:focusable="false"
+				  android:listSelector="@android:color/transparent"
+				  android:focusableInTouchMode="false"
+				  android:clickable="false"
+				  android:layout_marginBottom="7dp"
+			     android:divider="#ffffff" 
+			     android:dividerHeight="4dp" 		 
+	    		/> 	  
+          	  
+</LinearLayout>

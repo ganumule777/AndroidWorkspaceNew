@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/container" 
+    android:background="@drawable/demo"
+   >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_find_doctor"
+            android:layout_gravity="center"
+            android:textColor="@color/custom_theme_color"
+            android:layout_marginBottom="7dp"
+            android:textSize="20dp"
+           />
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+		    <ImageButton
+		        android:id="@+id/imageButton1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:onClick="openTabWindow"
+		        android:background="@android:color/transparent"
+		        android:scaleType="fitXY"	        
+		        android:src="@drawable/seo88" />
+
+		   
+		    <ImageButton
+		        android:id="@+id/imageButton2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:onClick="docRegClick"
+		        android:layout_marginLeft="10dp"
+		        android:background="@android:color/transparent"		               
+		        android:src="@drawable/doc1" />
+		    		   		   
+		    </LinearLayout>
+   
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+	         <Button
+			        android:id="@+id/button1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Cancel Appointment" />
+    </LinearLayout>
+            
+        </LinearLayout>
+         
+</RelativeLayout>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:orientation="horizontal"
+         android:layout_marginTop="5dp"
+         >
+
+        <ImageButton
+            android:id="@+id/ibDocPhoto"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:gravity="right"
+            android:onClick=""
+            
+            android:src="@drawable/doc" />
+        
+	        <LinearLayout
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center"
+		         android:orientation="vertical"
+		         android:layout_weight="1"
+	         >
+         	
+	            	 <TextView
+	            	     android:id="@+id/tvDocName"
+	            	     android:layout_width="match_parent"
+	            	     android:layout_height="wrap_content"
+	            	     android:layout_marginLeft="5dp"
+	            	     android:layout_marginRight="10dp"
+	            	     android:layout_weight="1"
+	            	     android:ellipsize="end"
+	            	     android:singleLine="true"
+	            	     android:text="Doc Name"
+	            	     android:textSize="20dp"
+	            	     android:textStyle="bold" />
+	            	 
+	            	  <TextView
+					    android:id="@+id/tvDocSpeciality"
+					    android:layout_width="match_parent"
+					    android:text="Doc Speciality"
+					    android:layout_weight="1"
+					    android:textSize="15dp"
+					    android:textColor="#0101DF"
+					    android:layout_height="wrap_content"
+					    android:layout_marginRight="10dp"
+					    android:layout_marginLeft="5dp"
+				     />
+	            	  
+	            	  <LinearLayout
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				         android:layout_gravity="center"
+				         android:orientation="horizontal"
+				         android:layout_marginTop="5dp"
+						 android:layout_weight="1"			         
+				         >
+
+			            	  <TextView
+			            	      android:id="@+id/tvDocExpLabel"
+			            	      android:layout_width="100dp"
+			            	      android:layout_height="wrap_content"
+			            	      android:layout_marginLeft="5dp"			            	      
+			            	      android:text="Work Exp : "
+			            	      android:textSize="15dp" />
+			            	  
+				            	  <TextView
+								    android:id="@+id/tvDocExp"
+								    android:layout_width="match_parent"
+								    android:text="Work Exp"
+								    android:layout_weight="0.9"
+								    android:textSize="15dp"
+								  
+								    android:layout_height="wrap_content"
+								    android:layout_marginRight="10dp"
+								    android:layout_marginLeft="5dp"
+							     />
+			            	  
+			            	  </LinearLayout>
+
+    		</LinearLayout>
+
+     </LinearLayout>
+    	
+     <LinearLayout
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				         android:layout_gravity="center"
+				         android:orientation="horizontal"
+				         android:layout_marginTop="5dp"
+				         >
+	            	  
+	            	      <TextView
+							    android:id="@+id/tvQulftnLbl"
+							    android:layout_width="120dp"
+							    android:text="Qualification"
+							    android:textSize="15dp"							    
+							    android:layout_height="wrap_content"
+							    android:layout_marginLeft="2dp"
+						     />
+	            	      <TextView
+							    android:id="@+id/tvQulftnLbl"
+							    android:layout_width="10dp"
+							    android:text=" : "
+							    android:textSize="15dp"							    
+							    android:layout_height="wrap_content"
+						     />
+	            	      
+			            	   <TextView
+							    android:id="@+id/tvQulfctn"
+							    android:layout_width="match_parent"
+							    android:text="Qual"
+							    android:textSize="15dp"						    
+							    android:layout_height="wrap_content"
+							    android:layout_marginRight="10dp"
+							    android:layout_marginLeft="5dp"
+						     />			            	   
+	            	   </LinearLayout>
+	            	  
+			            	 
+	            	  <LinearLayout
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				         android:layout_gravity="center"
+				         android:orientation="horizontal"
+				         android:layout_marginTop="5dp"
+				         >
+	            	  
+	            	      <TextView
+							    android:id="@+id/tvFeesLabel"
+							    android:layout_width="120dp"
+							    android:text="Con. Fees(INR)"
+							    android:textSize="15dp"							    
+							    android:layout_height="wrap_content"
+						     />
+	            	      
+	            	       <TextView
+							    android:id="@+id/tvQulftnLbl"
+							    android:layout_width="10dp"
+							    android:text=" : "
+							    android:textSize="15dp"							    
+							    android:layout_height="wrap_content"
+						     />
+			            	   <TextView
+							    android:id="@+id/tvConsulationFees"
+							    android:layout_width="match_parent"
+							    android:text="Consualtion Fees"
+							    android:textSize="15dp"							  
+							    android:layout_height="wrap_content"
+							    android:layout_marginRight="10dp"
+							    android:layout_marginLeft="5dp"
+						     />
+			            	   
+	            	   </LinearLayout>
+         
+	            	  
+    
+       	  <LinearLayout
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         android:orientation="horizontal"
+	         android:layout_marginTop="5dp"
+	         >	 
+		       	  <TextView
+				    android:id="@+id/tvClinicArea"
+				    android:layout_width="200dp"
+				    android:text="Clinic Area"
+				    android:textSize="13dp"
+				    android:textStyle="bold"
+				    android:layout_marginBottom="5dp"
+				    android:gravity="left|center_vertical"
+				    android:ellipsize="end"
+				    android:drawableLeft="@drawable/loc1"
+				    android:layout_height="wrap_content"
+				    android:layout_marginRight="10dp"
+				    android:layout_marginLeft="20dp"
+			     />  
+			      <RadioButton
+		       	       android:id="@+id/rbDocHospArea"
+		       	       android:layout_width="wrap_content"
+		       	       android:layout_height="wrap_content"
+		       	       android:text="" />
+			     </LinearLayout>
+
+       	  <LinearLayout
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         android:orientation="horizontal"
+	         android:layout_marginTop="5dp"
+	         >
+		       	   <TextView
+				    android:id="@+id/tvClinicArea"
+				    android:layout_width="200dp"
+				    android:text="Doctor Clinic"
+				    android:textSize="13dp"
+				    android:layout_marginBottom="5dp"
+				    android:gravity="left|center_vertical"
+				    android:ellipsize="end"
+				    android:drawableLeft="@drawable/loc1"
+				    android:layout_height="wrap_content"
+				    android:layout_marginRight="10dp"
+				    android:layout_marginLeft="20dp"
+			     />
+
+		       	    <RadioButton
+		       	       android:id="@+id/rbDocClinic"
+		       	       android:layout_width="wrap_content"
+		       	       android:layout_height="wrap_content"
+		       	       android:text="" />
+  	
+		       	  
+	     </LinearLayout>
+	       
+           <Button
+	        android:id="@+id/btBookAppmnt"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#6B8E23"
+	 		android:layout_gravity="bottom"	 
+	        android:text="@string/text_book_appointment" />
+           
+           <Button
+	        android:id="@+id/btRequestAppmnt"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#6B8E23"
+	        android:layout_marginTop="10dp"
+	 		android:layout_gravity="bottom"	 
+	        android:text="@string/text_request_appointment" />
+
+           <TextView
+          	     android:id="@+id/tvDocId"
+          	     android:layout_width="0dp"
+          	     android:layout_height="0dp"
+          	     android:layout_marginLeft="5dp"
+          	     android:layout_marginRight="10dp"
+          	     android:enabled="false"
+          	     android:visibility="invisible"
+          	    />
+           
+</LinearLayout>

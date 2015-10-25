@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar">#FF4500</color>
+    
+    <color name="list_item_selected_bg">#000000</color>
+    <color name="list_item_nonselected_bg">#FFFFFF</color>
+    <color name="table_row">#CEF6EC</color>
+
+  	<color name="ediText_solid_color">#FFFFFF</color>
+    <color name="ediText_stroke_color">#FFA500</color>
+    <color name="generalButton_color">#FF4500</color>
+    
+    <color name="post_details_text_color">#FF4500</color>
+ 	
+    <color name="custom_theme_color">#0B3B24</color>
+                     
+        <color name="buttonColor">#6B8E23</color>
+        
+        <color name="base_color">#DCDCDC</color>
+    
+    
+</resources>
